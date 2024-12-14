@@ -9,7 +9,7 @@ class ComposerStaticInitc62f5241ab3f39b8d5bb01595586923f
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Shakib53626\\LaravelRepositoryMaker\\' => 34,
+            'Shakib53626\\LaravelRepositoryMaker\\' => 35,
         ),
     );
 

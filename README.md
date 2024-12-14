@@ -16,10 +16,6 @@ You can install the package via Composer.
    composer require shakib53626/laravel-repository-maker:dev-master
    ```
 
-2. Run `composer install` to install the package:
-   ```bash
-   composer install
-   ```
 
 ## Usage
 
@@ -28,7 +24,7 @@ Once the package is installed, you can use the custom Artisan command to generat
 To generate a new repository, run:
 
 ```bash
-php artisan make:repository User
+php artisan make:repository TestRepository
 ```
 
 This command will create a `UserRepository` class in the `app/Repositories` directory with default methods.

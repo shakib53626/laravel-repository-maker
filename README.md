@@ -11,9 +11,9 @@ This tool is designed to enhance modularity, promote clean architecture, and sav
 
 You can install the package via Composer.
 
-1. Add the repository to your `package install`:
-   ```json
-   composer require shakib53626/laravel-repository-maker:dev-master
+1. Run `composer require` to require the package:
+   ```bash
+   composer update shakib53626/laravel-repository-maker
    ```
 
 2. Run `composer install` to install the package:

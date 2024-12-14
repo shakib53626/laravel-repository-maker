@@ -13,7 +13,7 @@ You can install the package via Composer.
 
 1. Run `composer require` to require the package:
    ```bash
-   composer update shakib53626/laravel-repository-maker
+   composer require shakib53626/laravel-repository-maker:dev-master
    ```
 
 2. Run `composer install` to install the package:

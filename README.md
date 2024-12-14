@@ -13,9 +13,7 @@ You can install the package via Composer.
 
 1. Add the repository to your `composer.json`:
    ```json
-   "require": {
-       "shakib53626/laravel-repository-maker": "^1.0"
-   }
+   composer require shakib53626/laravel-repository-maker:dev-master
    ```
 
 2. Run `composer install` to install the package:

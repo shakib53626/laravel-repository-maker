@@ -1,0 +1,29 @@
+{
+    "name": "shakib53626/laravel-repository-maker",
+    "description": "The shakib53626/laravel-repository-maker package provides a simple and efficient way to implement the Repository Design Pattern in Laravel projects. With a custom Artisan command (make:repository), developers can automatically generate repository classes with pre-defined methods like index, store, update, and delete. This tool is designed to enhance modularity, promote clean architecture, and save development time.",
+    "type": "library",
+    "version": "1.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Shakib53626\\LaravelRepositoryMaker\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shakibul Islam",
+            "email": "diu.shakib@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shakib53626\\LaravelRepositoryMaker\\RepositoryMakerServiceProvider"
+            ]
+        }
+    }
+}
